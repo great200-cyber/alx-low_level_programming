@@ -1,4 +1,4 @@
-#include "main.h"
+#include "stdio.h"
 
 /**
  * main - computers and prints the sum of all the multiples
@@ -21,10 +21,10 @@ int main(void)
 			sum3 = sum3 + i;
 		} else if ((i % 5) == 0)
 		{
-			sum5 = sum5 = i;
+			sum5 = sum5 + i;
 		}
 	}
 	sum = sum3 + sum5;
-	printf("%lu\n" , sum);
+	printf("%lu\n", sum);
 	return (0);
 }
